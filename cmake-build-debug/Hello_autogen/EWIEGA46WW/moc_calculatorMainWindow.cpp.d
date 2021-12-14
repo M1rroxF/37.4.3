@@ -1,6 +1,5 @@
-D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/include/main.moc: D:/Programming/c++/Hello/main.cpp \
+D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/EWIEGA46WW/moc_calculatorMainWindow.cpp: D:/Programming/c++/Hello/calculatorMainWindow.h \
   D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/moc_predefs.h \
-  D:/Programming/c++/Hello/calculatorMainWindow.h \
   D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
@@ -107,7 +106,6 @@ D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/include/main.moc: D:/Pr
   D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
   D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
   D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
-  D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
   D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iterator \
   D:/Programming/compiler/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
@@ -175,7 +173,6 @@ D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/include/main.moc: D:/Pr
   D:/Programming/compiler/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   D:/Programming/compiler/mingw64/x86_64-w64-mingw32/include/wchar.h \
   D:/Programming/compiler/mingw64/x86_64-w64-mingw32/include/wctype.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/QObject \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/Qstring \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
@@ -189,12 +186,7 @@ D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/include/main.moc: D:/Pr
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qconfig.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qeventloop.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qfile.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qflags.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qglobal.h \
@@ -205,7 +197,6 @@ D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/include/main.moc: D:/Pr
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qiterator.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qline.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qlist.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qlocale.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qlogging.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qmap.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qmargins.h \
@@ -223,7 +214,6 @@ D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/include/main.moc: D:/Pr
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qset.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
@@ -238,29 +228,21 @@ D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/include/main.moc: D:/Pr
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qurl.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qvector.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/QPaintEvent \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/QPainter \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/QPixmap \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qcolor.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qcursor.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qfont.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qguiapplication.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qicon.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qimage.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qinputmethod.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qpalette.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qpen.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
@@ -274,30 +256,15 @@ D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/include/main.moc: D:/Pr
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qtextoption.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qtransform.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/QApplication \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/QPushButton \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/QSlider \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/QVBoxLayout \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractslider.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayout.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
-  D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qslider.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
   D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
