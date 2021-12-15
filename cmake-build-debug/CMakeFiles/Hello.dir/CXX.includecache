@@ -6,12 +6,22 @@
 
 #IncludeRegexTransform: 
 
-D:/Programming/c++/Hello/calculatorMainWindow.h
+D:/Programming/c++/Hello/ControllerMainWindow.h
 QMainWindow
+-
+QLineEdit
+-
+QString
+-
+string
+-
+QTimer
+-
+QString
 -
 QtWidgets/QLineEdit
 -
-Qstring
+iostream
 -
 
 D:/Programming/c++/Hello/main.cpp
@@ -21,22 +31,16 @@ QApplication
 -
 QObject
 -
-QPixmap
--
-QPaintEvent
--
-QPainter
--
-QSlider
--
 QPushButton
 -
 QVBoxLayout
 -
-calculatorMainWindow.h
-D:/Programming/c++/Hello/calculatorMainWindow.h
-./ui_calculator.h
-D:/Programming/c++/Hello/ui_calculator.h
+./ui_controller.h
+-
+ControllerMainWindow.h
+D:/Programming/c++/Hello/ControllerMainWindow.h
+thread
+-
 main.moc
 -
 
@@ -47,6 +51,10 @@ D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qobject.h
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/QString
 qstring.h
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qstring.h
+
+D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/QTimer
+qtimer.h
+D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qtimer.h
 
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/QVariant
 qvariant.h
@@ -92,6 +100,12 @@ QtCore/qatomic_bootstrap.h
 QtCore/qatomic_cxx11.h
 -
 QtCore/qatomic_msvc.h
+-
+
+D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qbasictimer.h
+QtCore/qglobal.h
+-
+QtCore/qnamespace.h
 -
 
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qbytearray.h
@@ -678,6 +692,16 @@ QtCore/qscopedpointer.h
 stdio.h
 -
 
+D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qtimer.h
+QtCore/qglobal.h
+-
+QtCore/qbasictimer.h
+-
+QtCore/qobject.h
+-
+chrono
+-
+
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h
 QtCore/qglobal.h
 -
@@ -789,18 +813,6 @@ QtCore/qpoint.h
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
-
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/QPaintEvent
-qevent.h
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qevent.h
-
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/QPainter
-qpainter.h
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
-
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/QPixmap
-qpixmap.h
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qpixmap.h
 
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qbrush.h
 QtGui/qtguiglobal.h
@@ -988,38 +1000,6 @@ QtGui/qtguiglobal.h
 QtGui/qwindowdefs.h
 -
 QtCore/qrect.h
--
-
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qpainter.h
-QtGui/qtguiglobal.h
--
-QtCore/qnamespace.h
--
-QtCore/qrect.h
--
-QtCore/qpoint.h
--
-QtCore/qscopedpointer.h
--
-QtGui/qpixmap.h
--
-QtGui/qimage.h
--
-QtGui/qtextoption.h
--
-QtGui/qpolygon.h
--
-QtGui/qpen.h
--
-QtGui/qbrush.h
--
-QtGui/qmatrix.h
--
-QtGui/qtransform.h
--
-QtGui/qfontinfo.h
--
-QtGui/qfontmetrics.h
 -
 
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtGui/qpalette.h
@@ -1214,10 +1194,6 @@ D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/QPushButton
 qpushbutton.h
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h
 
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/QSlider
-qslider.h
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qslider.h
-
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/QStatusBar
 qstatusbar.h
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h
@@ -1236,12 +1212,6 @@ QtWidgets/qtwidgetsglobal.h
 QtGui/qicon.h
 -
 QtGui/qkeysequence.h
--
-QtWidgets/qwidget.h
--
-
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qabstractslider.h
-QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
@@ -1400,12 +1370,6 @@ QtCore/qobject.h
 QtCore/qalgorithms.h
 -
 
-D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qslider.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qabstractslider.h
--
-
 D:/bestProgs/QT/Qt5/5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1462,7 +1426,7 @@ QtGui/qevent.h
 
 Hello_autogen/include/main.moc
 
-Hello_autogen/include/ui_calculator.h
+Hello_autogen/include/ui_controller.h
 QtCore/QVariant
 -
 QtWidgets/QApplication
@@ -1478,8 +1442,6 @@ QtWidgets/QMenuBar
 QtWidgets/QPushButton
 -
 QtWidgets/QStatusBar
--
-QtWidgets/QVBoxLayout
 -
 QtWidgets/QWidget
 -

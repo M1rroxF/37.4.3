@@ -82,9 +82,9 @@
 	"HEADERS" : 
 	[
 		[
-			"D:/Programming/c++/Hello/calculatorMainWindow.h",
+			"D:/Programming/c++/Hello/ControllerMainWindow.h",
 			"MU",
-			"EWIEGA46WW/moc_calculatorMainWindow.cpp",
+			"EWIEGA46WW/moc_ControllerMainWindow.cpp",
 			null
 		]
 	],

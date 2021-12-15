@@ -17,8 +17,8 @@ find_package(Qt5 COMPONENTS
 #
 add_executable(Hello
         main.cpp
-        calculator.ui
-        calculatorMainWindow.h
+        controller.ui
+        ControllerMainWindow.h
         )
 
 target_link_libraries(Hello

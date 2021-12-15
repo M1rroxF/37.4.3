@@ -1,14 +1,11 @@
 #include <iostream>
 #include <QApplication>
 #include <QObject>
-#include <QPixmap>
-#include <QPaintEvent>
-#include <QPainter>
-#include <QSlider>
 #include <QPushButton>
 #include <QVBoxLayout>
-#include "calculatorMainWindow.h"
-#include "./ui_calculator.h"
+#include <./ui_controller.h>
+#include "ControllerMainWindow.h"
+#include <thread>
 
 using namespace std;
 
@@ -16,15 +13,12 @@ int main(int argc, char **argv) {
     QApplication app(argc, argv);
 
     //
-    CalculatorMainWindow window(nullptr);
+    ControllerMainWindow window(nullptr);
+    Ui::MainWindow controller;
 
     //
-    Ui::MainWindow calculator;
-    calculator.setupUi(&window);
-    window.lineEdit = calculator.lineEdit;
-
-    //
-    window.resize(500, 500);
+    controller.setupUi(&window);
+    window.lineEdit = controller.lineEdit_2;
     window.show();
 
     //

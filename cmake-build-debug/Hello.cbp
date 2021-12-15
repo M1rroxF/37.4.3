@@ -110,13 +110,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programming/c++/Hello/calculator.ui">
-			<Option target="Hello"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/Hello/calculatorMainWindow.h">
+		<Unit filename="D:/Programming/c++/Hello/ControllerMainWindow.h">
 			<Option target="Hello"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/Hello/cmake-build-debug/Hello_autogen/mocs_compilation.cpp">
+			<Option target="Hello"/>
+		</Unit>
+		<Unit filename="D:/Programming/c++/Hello/controller.ui">
 			<Option target="Hello"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/Hello/main.cpp">
